@@ -1,0 +1,16 @@
+.gallery__img {
+ max-width: 100%;
+
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery__img {
+    min-width: 29vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__img {
+    width: 91vw;
+  }
+}

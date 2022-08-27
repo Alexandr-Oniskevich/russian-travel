@@ -1,0 +1,46 @@
+.place__text {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  color: #FFFFFF;
+  
+}
+
+
+.place__text:not(:last-child) {
+  padding-bottom: 27px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__text{
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place__text{
+    max-width: 90%;
+   padding-left: 16px;
+   
+  }
+
+  .place__text:not(:last-child) {
+    padding-bottom: 23px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__text{
+    max-width: 90%;
+   padding-left: 16px;
+   
+  }
+
+  .place__text:not(:last-child) {
+    padding-bottom: 23px;
+  }
+}

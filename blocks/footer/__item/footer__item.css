@@ -1,0 +1,15 @@
+.footer__item:not(:last-child) {
+  padding-right: 18px;
+}
+
+@media screen and (max-width: 760px) {
+  .footer__item:not(:last-child) {
+    padding-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer__item:not(:last-child) {
+    padding-bottom: 32px;
+  }
+}

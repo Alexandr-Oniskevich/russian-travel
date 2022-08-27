@@ -1,0 +1,53 @@
+.place__card {
+  display: grid;
+    grid-template: minmax(min-content, max-content) minmax(min-content, max-content) / minmax(340px, 460px) minmax(352px, 484px);
+    gap: 48px 40px;
+    padding: 0;
+ 
+}
+
+.place__card:not(:last-child) {
+  padding-bottom: 80px;
+}
+
+@media screen and (max-width: 1024px) {
+ .place__card {
+  gap: 44px 26px;
+ }
+  
+  .place__card:not(:last-child) {
+    padding-bottom: 50px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .place__card:not(:last-child) {
+    padding-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place__card {
+    grid-template-columns: 100%;
+    margin: 0 0 50px 0;
+    padding: 0;
+    gap: 32px;
+    
+  }
+
+  .place__card:not(:last-child) {
+    padding-bottom: 65px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__card {
+    max-width: 100%;
+    display: block;
+  }
+
+  .place__card:not(:last-child) {
+    padding-bottom: 65px;
+  }
+}

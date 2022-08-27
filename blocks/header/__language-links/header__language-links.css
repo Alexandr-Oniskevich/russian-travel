@@ -1,0 +1,3 @@
+.header__language-links:not(:last-child){
+  margin-right: 18px;
+}
