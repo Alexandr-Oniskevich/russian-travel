@@ -7,7 +7,7 @@
 }
 
 .place__card:not(:last-child) {
-  padding-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,14 +16,14 @@
  }
   
   .place__card:not(:last-child) {
-    padding-bottom: 50px;
+    margin-bottom: 60px;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .place__card:not(:last-child) {
-    padding-bottom: 25px;
+    margin-bottom: 25px;
   }
 }
 
@@ -45,9 +45,11 @@
   .place__card {
     max-width: 100%;
     display: block;
+    
   }
 
   .place__card:not(:last-child) {
-    padding-bottom: 65px;
+    padding-bottom: 0;
+    margin-bottom: 65px;
   }
 }

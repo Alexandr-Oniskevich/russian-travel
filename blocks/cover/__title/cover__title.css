@@ -12,7 +12,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  transform: translateY(-16px);
+  transform: translateY(-24px);
   color: #FFFFFF;
   position: absolute;
   z-index: 2;
@@ -27,12 +27,13 @@
 @media screen and (max-width: 1024px) {
   .cover__title {
     max-width: 560px;
+    transform: translateY(-44px);
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__title {
-    max-width: 288px;
+    max-width: 560px;
     transform: translateY(-59px);
   }
 }

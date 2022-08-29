@@ -5,7 +5,9 @@
   background-size: cover;
   position: relative;
   display: flex;
+  margin-bottom: 80px;
 }
+
 
 @media screen and (max-width: 1024px) {
   .cover {
@@ -16,5 +18,13 @@
 @media screen and (max-width: 768px) {
   .cover {
     min-height: 62vw;
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover {
+   
+    margin-bottom: 0px;
   }
 }

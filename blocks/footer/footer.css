@@ -1,5 +1,4 @@
 .footer {
-  padding-top: 91px;
   padding-bottom: 24px;
   display: flex;
   justify-content: space-between;
@@ -9,20 +8,22 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-   padding: 91px 48px 24px;
+   padding-left: 48px;
+   padding-right: 48px;
+   padding-bottom: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .footer {
-   padding: 91px 26px 24px;
+   padding: 0px 26px 24px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .footer {
     flex-direction: column;
-    padding: 70px 0 0 15px;
+    padding: 0px 0 0 15px;
     align-items: baseline;
 
   }

@@ -23,11 +23,6 @@
 
 
 @media screen and (max-width: 375px) {
-  .header svg { 
-    width: 142px;
-    height: 42px;
-  }
-
   .header {
     padding-left: 17px;
     padding-right: 16px;
