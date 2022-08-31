@@ -24,16 +24,11 @@
   .container { 
     max-width: 760px;
     padding-top: 0px;
-    padding-left: 0;
-    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 375px) {
   .container { 
     max-width: 375px;
-    padding-top: 0px;
-    padding-left: 0;
-    padding-right: 0;
   }
 }

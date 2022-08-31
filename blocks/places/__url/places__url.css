@@ -1,7 +1,6 @@
-.place__url {
+.places__url {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -11,13 +10,7 @@
 }
 
 @media screen and (max-width: 760px) {
-  .place__url{
-    padding-bottom: 13px;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  .place__url{
+  .places__url{
     padding-bottom: 13px;
   }
 }

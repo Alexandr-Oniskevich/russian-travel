@@ -1,44 +1,44 @@
-.place {
+.places {
   padding: 0;
   max-width: 83%;
   margin: 0 auto;
-  margin-bottom: 90px;
+  margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1150px) {
-  .place {
+  .places {
     max-width: 100%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .place {
+  .places {
     max-width: 91%;
   }
 }
 
 @media screen and (max-width: 904px) {
-  .place {
+  .places {
     max-width: 98%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .place {
+  .places {
     max-width: 94%;
-    margin-bottom: 57px;
+    margin-bottom: 43px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .place {
+  .places {
     max-width: 100%;
    
   }
 }
 
 @media screen and (max-width: 375px) {
-  .place {
+  .places {
     max-width: 100%;
    
   }
