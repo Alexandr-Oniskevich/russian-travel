@@ -7,9 +7,3 @@
     padding-bottom: 32px;
   }
 }
-
-@media screen and (max-width: 375px) {
-  .footer__item:not(:last-child) {
-    padding-bottom: 32px;
-  }
-}

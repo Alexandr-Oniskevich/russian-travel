@@ -8,7 +8,8 @@
 
 @media screen and (max-width: 1024px) {
   .places__img{
-   min-height: 440px;
+    width: 440px;
+    height: 440px;
   }
 }
 
