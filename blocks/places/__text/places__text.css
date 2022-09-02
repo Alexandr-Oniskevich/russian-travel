@@ -5,7 +5,6 @@
   font-size: 18px;
   line-height: 163%;
   color: #FFFFFF;
-  
 }
 
 
@@ -16,15 +15,13 @@
 @media screen and (max-width: 768px) {
   .places__text{
     font-size: 16px;
-    line-height: 163%;
   }
 }
 
 @media screen and (max-width: 760px) {
   .places__text{
     max-width: 90%;
-   padding-left: 16px;
-   
+    padding-left: 16px;
   }
 
   .places__text:not(:last-child) {
